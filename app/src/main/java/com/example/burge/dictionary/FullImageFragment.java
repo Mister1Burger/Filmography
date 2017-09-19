@@ -34,9 +34,9 @@ public class FullImageFragment extends Fragment {
 
         Adapter adapter = new Adapter(getActivity());
 
-        int position = adapter.getItemId(   );
-        imageView.setImageResource(adapter.mThumbIds[position]);
-        textView.setText(adapter.aboutPoster[position]);
+//        int position = adapter.getItemId(   );
+//        imageView.setImageResource(adapter.mThumbIds[position]);
+//        textView.setText(adapter.aboutPoster[position]);
 
 
 

@@ -6,14 +6,23 @@ package com.example.burge.dictionary;
 
 public class Film {
 
+    int poster;
     String name;
     double rating;
     String description;
 
-    public Film(String name, double rating, String description) {
+    public Film(int poster, String name, double rating, String description) {
+        this.poster = poster;
         this.name = name;
         this.rating = rating;
         this.description = description;
+    }
+    public int getPoster() {
+        return poster;
+    }
+
+    public void setPoster(int poster) {
+        this.poster = poster;
     }
 
     public String getName() {
