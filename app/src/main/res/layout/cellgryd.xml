@@ -21,6 +21,7 @@
         android:layout_width="35dp"
         android:layout_height="wrap_content" />
     <TextView
+        android:id="@+id/name_text"
         android:layout_below="@+id/poster_image"
         android:layout_alignRight="@+id/rating_text"
         android:layout_width="wrap_content"

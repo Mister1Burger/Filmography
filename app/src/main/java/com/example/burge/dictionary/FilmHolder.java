@@ -11,11 +11,11 @@ import butterknife.BindView;
  */
 
 public class FilmHolder {
-    @BindView(R2.id.name_tv)
+    @BindView(R2.id.name_text)
     TextView name_tv;
-    @BindView(R2.id.rating_tv)
+    @BindView(R2.id.rating_text)
     TextView rating_tv;
-    @BindView(R2.id.poster_iv)
+    @BindView(R2.id.poster_image)
     ImageView poster_iv;
     @BindView(R2.id.rl)
     RelativeLayout rl;
